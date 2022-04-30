@@ -1,0 +1,197 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #FFFFFF;
+}
+
+/* 1. navbar - propiedades */
+
+/* se setean propiedades generales de la navbar */
+.navbar{
+  font-size: 1em;
+  font-weight: 300;
+  color:#FFFFFf;
+}
+/* se dan propiedades a los estados de los links */
+.navbar a{
+  color:#FFFFFF;
+  border-radius: 2px;
+}
+.navbar a:hover{
+font-weight: 600;
+  border-radius: 2px;
+  color: #0088c7;
+}
+/* Se alinea imágen al margen izquierdo */
+.navbar-brand img{
+  margin-left: 20px;
+}
+
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-hero.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+}
+
+#Hero-Section h1,p{
+  color:#FFFFFF;
+}
+
+#misCaracteristicas{
+  background-color: #0088c7;
+}
+
+.textoEmpresa{
+  color: #1f2029;
+  font-weight: 500;
+  
+}
+
+.textoFecha{
+  color: #565a5c;
+  font-weight: 300;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  
+}
+.textoDescrip{
+  color: #565a5c;
+  font-weight: 200;
+  font-size: 1em;
+  text-align: justify;
+  margin-top: 0;
+}
+
+/* Mis trabajos */
+
+.card-text{
+  color:#1f2029;
+}
+
+#Mis-trabajos{
+  background-color: #0088c7;
+}
+
+
+Propiedades grilla
+
+
+.card{
+	margin: auto;
+    height: auto;
+}
+
+.card .textProyecto{
+  color:#1f2029;
+  margin:5px 0 5px 0;
+}
+
+
+.backgroundColor{
+    background-color:#0088c7;
+}
+
+.text-company{
+    font-size: 1rem;
+    color: #1f2029;
+    margin: 0;
+    font-weight: 300;
+}
+.text-address{
+    font-size: 0.813rem;
+    color:#707070;
+    font-weight: 300;
+    margin: 0;
+}
+
+.botonPrev{
+    font-size: 0.7em;
+    color:#565a5c;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.botonPrev:hover{
+    font-size: 0.7em;
+    color:#FFFFFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+.botonPrev:visited{
+  font-size: 0.7em;
+  color:#565a5c;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.botonRepo a{
+  font-size: 0.7em;
+  color:#0088c7;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.botonRepo:hover a{
+  font-size: 0.7em;
+  color:#FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+
+.botonPrev:focus{
+  color:red;
+}
+
+
+.price-now{
+    font-size: 1.25rem;
+    color:#28A745;
+    font-weight: 500;
+    text-decoration: none;
+}
+.price-now:hover{
+    font-size: 1.25rem;
+    color:#28A745;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+/* @media (max-width: 768px) {} */
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+.RRSS{
+    font-size:15px;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-weight:600;
+}
